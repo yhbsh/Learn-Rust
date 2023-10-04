@@ -1,6 +1,6 @@
-# Just Me Learning The Rust Programming Language
+# Just Me Learning the rust programming language
 
-# Compilte & Run
+# Compile & Run
 ``` bash
 cargo build
 cargo run
