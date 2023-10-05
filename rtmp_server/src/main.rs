@@ -6,7 +6,7 @@ use std::thread;
 
 fn handle_client(mut stream: TcpStream) -> io::Result<()> {
     println!("Client connected: {}", stream.peer_addr()?);
-    stream.write_all(b"Hello from server")?;
+    stream.write_all(b"Hello from server\n")?;
     Ok(())
 }
 
